@@ -1,0 +1,30 @@
+/* Tailwind CSS Directives */
+/* These three lines are essential for Tailwind CSS to work */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Custom Styles */
+/* You can add your own global CSS here below the Tailwind directives */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Tailwind's base will often normalize some of these, but it's good to have */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* You can add more custom global styles here if needed */
+/* For example, a default link style or form input reset */
+/* a {
+  color: inherit;
+  text-decoration: none;
+} */
